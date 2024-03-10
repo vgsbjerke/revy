@@ -6,14 +6,24 @@
     font-family: "good-times";
     src: url('fonts/good\ times\ rg.otf')
 }
-
+#preloader 
+{ 
+    position: fixed; 
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+    background: rgba(0,0,0,.3) /*url('URL TO AN ANIMATED LOADING GIF') no-repeat center center; */
+}
 h2 {
     font-family: "neuropolitical";
     text-align: end;
     margin-right: 10%;
 }
 html, body {
-
+    margin: 0;
+    padding: 0;
 }
 body {
     background-color:#0e0b16;
@@ -24,7 +34,7 @@ body {
 p {
     color: white;
     text-shadow: 1px .5px 1px #000000;
-    font-family: oxanium;
+    font-family: oxanium, sans-serif;
 
 }
 .text-container {
@@ -41,6 +51,7 @@ p {
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
     padding: 2%;
+    margin: 0;
     
    
     /*background-color: #e7dfdd;*/
